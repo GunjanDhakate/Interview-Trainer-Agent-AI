@@ -1,9 +1,9 @@
-🤖 Interview-Trainer-Agent-AI
+# 🤖 Interview-Trainer-Agent-AI
 A personalized AI-powered interview preparation tool leveraging IBM watsonx.ai and Retrieval-Augmented Generation (RAG) for smart, context-aware coaching.
 
 “Prepare smarter, not harder — your interview edge with AI.”
 
-📚 Table of Contents
+## 📚 Table of Contents
 ✨ Overview
 
 🎯 Identifying the Problem
@@ -24,14 +24,12 @@ A personalized AI-powered interview preparation tool leveraging IBM watsonx.ai a
 
 ⚠ Challenges We Faced
 
-🙌 Credits
-
-✨ Overview
+# ✨ Overview
 SmartInterview Coach is an intelligent virtual assistant designed to help users confidently prepare for job interviews. Built using IBM watsonx.ai and enhanced with RAG architecture, it delivers role-specific, real-time advice using internal data and live search.
 
 Personalized | Context-Aware | Behavioral & Technical Insights
 
-🎯 Identifying the Problem
+# 🎯 Identifying the Problem
 Traditional interview prep platforms often fall short in:
 
 ⚙ Offering generalized advice
@@ -40,7 +38,7 @@ Traditional interview prep platforms often fall short in:
 
 👤 Not tailoring content to job-specific roles or experience levels
 
-✅ Our AI-Driven Approach
+# ✅ Our AI-Driven Approach
 Our solution addresses these pain points by:
 
 🔍 Detecting intent to recognize the user’s job role
@@ -49,7 +47,7 @@ Our solution addresses these pain points by:
 
 🧠 Using IBM Granite LLM for natural, structured responses
 
-💡 Key Capabilities
+# 💡 Key Capabilities
 👩‍💼 Profession-based interview simulations
 
 🌍 On-demand dynamic info for niche roles
@@ -62,7 +60,7 @@ Our solution addresses these pain points by:
 
 🔒 Domain-limited to interview coaching only
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 Component	Tool/Platform
 🧠 AI Engine	IBM watsonx.ai + Granite Model
 ☁ Platform	IBM Cloud (Lite Tier)
@@ -71,7 +69,7 @@ Component	Tool/Platform
 🔍 Web Search	Google Search API
 🧠 RAG Logic	Custom Vector Indexing + Routing
 
-🏗 System Design
+# 🏗 System Design
 mermaid
 Copy
 Edit
@@ -81,7 +79,7 @@ B -- Yes --> C[Query Internal Vector DB];
 B -- No --> D[Run Google Search];
 C & D --> E[Response via Granite LLM];
 E --> F[Display to User];
-🚀 Demo Scenarios
+# 🚀 Demo Scenarios
 Try saying:
 
 “Help me with questions for a UI/UX Designer interview.”
@@ -90,7 +88,7 @@ Try saying:
 
 “How do I answer: What’s your biggest weakness?”
 
-🧠 Knowledge Integration
+# 🧠 Knowledge Integration
 The assistant uses:
 
 A custom-curated interview Q&A database
@@ -99,23 +97,20 @@ Dynamic retrieval for roles not in scope
 
 LLM-generated STAR answers for behavioral prompts
 
-🔮 Future Development
+# 🔮 Future Development
 🔄 Resume analysis and feedback
 
 🗓 Personalized interview timelines
 
 📊 Analytics dashboard for preparation tracking
 
-⚠ Challenges We Faced
+# ⚠ Challenges We Faced
 🧪 Prompt tuning for role-detection accuracy
 
 ⚙ Tool orchestration for web vs. internal routing
 
 🧠 Ensuring controlled, relevant generation by the LLM
 
-🙌 Credits
+# 🙌 Credits
 This project was built under the IBM SkillsBuild for Academia initiative.
 Gratitude to the Edunet Foundation for training and mentorship.
-
-📄 License
-Open for academic learning and demonstration purposes only.
